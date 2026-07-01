@@ -1,31 +1,37 @@
-** Video Game Industry Analysis (SQL) **
+# Video Game Industry Analysis (1980–2016)
 
-Designed and executed an end-to-end data analysis project using a global video game sales dataset to examine market trends,
-publisher performance, platform competitiveness, genre popularity, and regional consumer preferences.
+## Objective.
+Analyze global video game sales to understand market trends, top publishers, best-performing genres, 
+regional preferences, and blockbuster games.
 
-** Project Objectives **
+## Tools Used.
+- SQL
+- MySQL
+- Data Cleaning
+- Aggregation
+- Window Functions
+- CTEs
 
-* Analyze the evolution of the video game industry over time.
-* Identify key market segments and sales drivers.
-* Compare performance across publishers, platforms, and genres.
-* Explore differences in gaming preferences across geographic regions.
-* Investigate characteristics associated with high-performing game releases.
+## Business Questions.
+- Which publishers dominate the gaming market?
+- Which genres perform best globally?
+- How do regional preferences differ?
+- What factors are associated with blockbuster games?
 
-** Key Activities **
+## Analysis Included.
+- Missing value checks
+- Duplicate checks
+- Genre sales analysis
+- Top games per genre
+- Top publishers by global sales
 
-* Performed data quality assessment, including missing value and duplicate record detection.
-* Applied SQL aggregation techniques to evaluate market performance across multiple dimensions.
-* Used Common Table Expressions (CTEs) and Window Functions to rank games, publishers, and genres within their respective categories.
-* Developed analytical queries to support trend analysis and comparative performance evaluation.
-* Structured datasets for interactive business intelligence reporting.
+## Files.
+- `sql/video_game_industry_analysis.sql`
+- `data/vg_sales.csv`
 
-** Tools & Technologies **
-
-* SQL (Data Cleaning, Aggregation, CTEs, Window Functions, Ranking Functions)
-* Tableau (Interactive Dashboards, Trend Analysis, Market Segmentation, Regional Comparison)
-* Data Visualization & Business Intelligence
-
-** Skills Demonstrated **
-
-Data Cleaning, Exploratory Data Analysis (EDA), Business Intelligence, Data Visualization, Trend Analysis, Market Analysis,
-Consumer Behavior Analysis, SQL Analytics, Dashboard Design, Data Storytelling.
+## Key Skills Demonstrated
+- SQL querying
+- Data cleaning
+- Grouping and aggregation
+- Ranking with window functions
+- Common Table Expressions
